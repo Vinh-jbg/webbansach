@@ -1,0 +1,230 @@
+.address-container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.address-header {
+    padding-top: 40px;
+    position: relative;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line-address {
+    position: absolute;
+    width: 85%;
+    background-color: #c4c4c4;
+    height: 3px;
+    top: 55%;
+    left: 40px;
+    z-index: 1;
+}
+.address-header-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+.address-header-item span {
+    opacity: 0.6;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.address-num {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #c4c4c4;
+    color: #fff;
+}
+.address-num.active {
+    background-color: #0a6f3c;
+
+}
+
+.serviec-body {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.serviec-body .body-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.serviec-body .body-top span.title{
+    font-size: 28px;
+    color: #0a6f3c;
+    font-weight: bold ;
+}
+.body-container .body-container-top {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.body-container .body-container-top button{
+    padding: 10px;
+    color: #e5e5e5;
+    outline: none;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.address-body {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.address-left {
+    width: 100%;
+}
+.form-address {
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+
+}
+.input-grroup {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+}
+.input-grroup label {
+    float: left;
+    width: 160px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.input-grroup input {
+    float: left;
+    width: 260px;
+    padding: 4px 3px;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+    color: #464646;
+    margin-right: 10px;
+    outline: none;
+}
+.input-grroup label span::after {
+    padding-left: 3px;
+    color: #d64830;
+    content: "*";
+    font-size: 130%;
+    line-height: 1px;
+}
+.group-btn {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.btn-address, .btn-address-disiabled {
+    min-width: 50px;
+    margin-left: 10px;
+    min-height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.btn-address {
+    color: #fff;
+    background-color: #0ac933;
+    text-align: center;
+    line-height: 45px;
+}
+.btn-address-disiabled {
+    color: #333;
+}
+.address-infor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.address-infor span {
+    padding: 10px;
+    color: #333;
+}
+.pay-body .pay-left {
+    width: 50%;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.pay-body .pay-left h4 {
+    color: #0a6f3c;
+    padding-bottom: 10px;
+}
+.pay-body .pay-left p {
+    font-size: 15px;
+    color: #333;
+}
+
+.pay-body .pay-left form {
+    width: 100%;
+}
+
+.pay-body .pay-left form input {
+    padding: 10px 0;
+}
+
+.pay-body .pay-left form button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #0a6f3c;
+    color: #fff;
+    width: 100px;
+}
+
+.body {
+    width: 100%;
+}
+.cofirm-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cofirm-body .colum-1 , .cofirm-body .colum-1  .list-product{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+
+}
+.cofirm-body .colum-1 h5 {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cofirm-body .colum-1  .list-product .product-item{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.cofirm-body .colum-1  .list-product .product-item img {
+    margin-right: 20px;
+}
+
+.bill-temp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bill-temp .bill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

@@ -1,0 +1,241 @@
+
+.btn1 {
+    min-width: 260px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: #d5d4d4;
+    color: #fff;
+    display: inline-block;
+    /* FDC92D */
+}
+.app-register {
+    background-color: #fff;
+}
+.register {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 125px;
+}
+
+.register .wrap {
+    width: 1200px;
+    margin: auto;
+}
+
+.register .wrap .register-containt {
+    width: 100%;
+    padding-top: 40px;
+}
+.register .wrap .register-containt .register-header {
+    width: 100%;
+    border-bottom: 1px dotted #e6e6e6;
+    margin-bottom: 40px;
+}
+.register .wrap .register-containt .register-header .register-link-sub,
+.register .wrap .register-containt .register-header .register-link-sub a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    line-height: 35px;
+}
+.register .wrap .register-containt .register-header .register-link-sub i {
+    font-size: 10px;
+    padding-right: 10px;
+}
+.register .wrap .register-containt .register-header .header-title {
+    font-size: 22px;
+    color: #464646;
+}
+.register .wrap .register-containt .register-body {
+    width: calc(100% - 100px);
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    display: flex;
+}
+
+.register .wrap .register-containt .register-body .register-left {
+    width: 800px;
+    padding: 10px 30px 30px 30px;
+}
+
+.register .wrap .register-containt .register-body .register-left .register-form-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #0a6f3c;
+    width: 100%;
+    display: block;
+    border-bottom: 1px dotted #e6e6e6;
+    height: 30px;
+    line-height: 30px;
+}
+.register .wrap .register-containt .register-body .register-left .form-register {
+    width: 100%;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup {
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup label {
+    float: left;
+    width: 160px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup label span {
+    position: relative;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup:not(.radio) label span::after {
+    padding-left: 3px;
+    color: #d64830;
+    content: "*";
+    font-size: 130%;
+    line-height: 1px;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup  input:not(input[type="radio"]) {
+    float: left;
+    width: 260px;
+    padding: 4px 3px;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+    color: #464646;
+    margin-right: 10px;
+    outline: none;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup  input[type="radio"], 
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup  span:not(span.errMassage) {
+    font-size: 13px;
+    color: #464646;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.form-register .input-grroup span.errMassage {
+    color: rgb(219, 30, 30);
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup  label {
+    color: #464646;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup img {
+    border: 1px solid #c7c7c7;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.register .wrap .register-containt .register-body .register-left .form-register .input-grroup  i {
+    font-size: 15px;
+    color: #888;
+}
+.register .wrap .register-containt .register-body .register-left .form-register p {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 160px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #888;
+}
+
+.btn-register {
+    min-width: 135px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: #d5d4d4;
+    color: #fff;
+    display: inline-block;
+    background-color: #2AD40D;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.register .wrap .register-containt .register-body .register-right {
+    width: calc(1200px - 800px);
+    background-image: linear-gradient(to right,#F1F1F1 0,#FFFFFF 70%);
+}
+
+.social {
+    margin-top: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 84px 5px 84px;
+}
+.social span {
+    font-size: 14px;
+    color: #555;
+}
+.register.social .socail-group {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    align-items: center;
+}
+.register.social .socail-group .social-item:first-child {
+    background-color: #4582f4;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    height: 42px;
+    width: 186px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.register.social .socail-group .social-item:first-child i {
+    height: 40px;
+    width: 42px;
+    margin: 1px 0 0 1px;
+    background-color: #fff;
+    color: #006AC7;
+    line-height: 40px;
+    float: left;
+    font-size: 20px;
+}
+.register.social .socail-group .social-item:first-child span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.register.social .socail-group .social-item:last-child{
+    background-color: #426dc0;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    height: 42px;
+    width: 248px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.register.social .socail-group .social-item:last-child i {
+    height: 27px;
+    width: 27px;
+    margin: 0 6px;
+    background-color: #fff;
+    color: #426dc0;
+    line-height: 27px;
+}
+.register.social .socail-group .social-item:last-child span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
